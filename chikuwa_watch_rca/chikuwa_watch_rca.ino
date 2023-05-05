@@ -132,7 +132,6 @@ void setup_wifi()
 {
   WiFi.disconnect();
   delay(500);
-//  WiFi.begin(ssid, password);
   WiFi.begin(WIFI_SSID, WIFI_PASSWORD);
 
   M5.Lcd.setTextSize(2);
